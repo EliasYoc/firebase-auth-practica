@@ -1,0 +1,18 @@
+.main-container {
+  /* background-color: teal; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-not-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.content-not-data img {
+  width: 150px;
+  height: 150px;
+  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.425));
+}

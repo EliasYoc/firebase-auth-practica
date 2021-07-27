@@ -1,0 +1,33 @@
+.container-loader {
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+.borderRadiusNone {
+  border-radius: 0;
+}
+.loader {
+  background-color: rgb(2, 97, 114);
+  border-bottom: 1px rgba(0, 128, 0, 0.705) solid;
+  height: 4px;
+  width: 0;
+  animation: loader 1.5s ease infinite;
+}
+@keyframes loader {
+  0% {
+    width: 0%;
+    transform: translateX(-100%);
+  }
+  50% {
+    width: 100%;
+    transform: translateX(0);
+  }
+  100% {
+    width: 100%;
+    transform: translateX(100%);
+  }
+}

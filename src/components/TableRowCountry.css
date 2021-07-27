@@ -1,0 +1,9 @@
+tr.animacion-delete {
+  transform: translateX(-100%);
+
+  transition: transform 0.3s;
+}
+tr.animacion-delete td {
+  padding: 0;
+  transition: padding 0.3s;
+}
